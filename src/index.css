@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #faf8f3;
+  --color-forest: #254336;
+  --color-deepgreen: #1e3028;
+  --color-saffron: #d48b2a;
+  --color-gold: #b79045;
+  --color-cream: #fffdf8;
+  --color-ink: #2b2b2b;
+  --color-mist: #6b7280;
+
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-devanagari: "Noto Serif Devanagari", "Cormorant Garamond", serif;
+
+  --shadow-soft: 0 20px 60px -24px rgb(30 48 40 / 0.16);
+  --shadow-lift: 0 32px 80px -28px rgb(30 48 40 / 0.28);
+  --shadow-glow: 0 12px 48px -12px rgb(212 139 42 / 0.35);
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgb(212 139 42 / 0.25);
+}
+
+/* Elegant thin scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-parchment);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(37 67 54 / 0.35);
+  border-radius: 999px;
+  border: 2px solid var(--color-parchment);
+}
+
+/* Reusable utility layers */
+@utility glass {
+  background: rgb(255 253 248 / 0.72);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  border: 1px solid rgb(183 144 69 / 0.18);
+}
+
+@utility glass-dark {
+  background: rgb(30 48 40 / 0.55);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  border: 1px solid rgb(255 253 248 / 0.12);
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* Subtle lotus / mandala paper texture for section backgrounds */
+.texture-paper {
+  background-image: radial-gradient(
+      rgb(183 144 69 / 0.05) 1px,
+      transparent 1px
+    );
+  background-size: 26px 26px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
