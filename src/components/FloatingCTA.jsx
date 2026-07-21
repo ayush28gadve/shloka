@@ -19,7 +19,7 @@ export default function FloatingCTA() {
       {visible && (
         <motion.a
           key="floating-cta"
-          href="https://wa.me/919876543210?text=Namaste!%20I%20would%20like%20to%20join%20your%20classes."
+          href="https://wa.me/919999999999?text=Namaste!%20I%20would%20like%20to%20join%20your%20classes."
           target="_blank"
           rel="noreferrer"
           initial={{ opacity: 0, y: reduce ? 0 : 24, scale: 0.9 }}

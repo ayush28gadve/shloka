@@ -35,7 +35,7 @@ export default function Contact() {
           {/* Contact actions */}
           <motion.div variants={fadeUp(0, 30)} className="flex flex-col gap-5">
             <a
-              href="https://wa.me/919876543210?text=Namaste!%20I%20would%20like%20to%20know%20more%20about%20your%20classes."
+              href="https://wa.me/919999999999?text=Namaste!%20I%20would%20like%20to%20know%20more%20about%20your%20classes."
               target="_blank"
               rel="noreferrer"
               className="group glass-dark rounded-3xl p-7 flex items-center gap-5 transition-all duration-700 hover:bg-forest/70 hover:-translate-y-1"
@@ -50,14 +50,14 @@ export default function Contact() {
             </a>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919999999999"
               className="group glass-dark rounded-3xl p-7 flex items-center gap-5 transition-all duration-700 hover:bg-forest/70 hover:-translate-y-1"
             >
               <span className="grid place-items-center w-14 h-14 rounded-2xl bg-saffron/15 text-saffron shrink-0">
                 <Phone className="w-6 h-6" strokeWidth={1.6} />
               </span>
               <span>
-                <span className="block font-display text-xl font-semibold text-cream">+91 98765 43210</span>
+                <span className="block font-display text-xl font-semibold text-cream">+91 XXXXX XXXXX</span>
                 <span className="block text-[13px] text-cream/60 mt-0.5">Call between 9 AM – 8 PM</span>
               </span>
             </a>

@@ -73,11 +73,11 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+919876543210"
+              href="tel:+919999999999"
               className="flex items-center gap-2 text-[13.5px] font-semibold text-forest hover:text-saffron transition-colors duration-300"
             >
               <Phone className="w-4 h-4" />
-              +91 98765 43210
+              +91 XXXXX XXXXX
             </a>
             <a
               href="#contact"
@@ -151,7 +151,7 @@ export default function Navbar() {
                   Join Classes
                 </a>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919999999999"
                   className="inline-flex justify-center items-center gap-2 rounded-full border border-forest/20 px-6 py-3.5 text-sm font-semibold text-forest"
                 >
                   <Phone className="w-4 h-4" /> Call Now

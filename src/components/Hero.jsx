@@ -67,7 +67,7 @@ export default function Hero() {
                 <ArrowRight className="w-4 h-4 transition-transform duration-500 group-hover:translate-x-1" />
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919999999999"
                 className="inline-flex items-center gap-2.5 rounded-full glass px-8 py-4 text-[14.5px] font-semibold text-forest shadow-soft transition-all duration-500 hover:shadow-lift hover:-translate-y-0.5"
               >
                 <Phone className="w-4 h-4 text-saffron" />

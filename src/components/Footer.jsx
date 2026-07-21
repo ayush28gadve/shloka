@@ -62,14 +62,14 @@ export default function Footer() {
                 Osmanpura, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra
               </li>
               <li>
-                <a href="tel:+919876543210" className="flex items-center gap-3 hover:text-cream transition-colors duration-300">
+                <a href="tel:+919999999999" className="flex items-center gap-3 hover:text-cream transition-colors duration-300">
                   <Phone className="w-4 h-4 text-gold/70 shrink-0" />
-                  +91 98765 43210
+                  +91 XXXXX XXXXX
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919999999999"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-3 hover:text-cream transition-colors duration-300"

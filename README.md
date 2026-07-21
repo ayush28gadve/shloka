@@ -31,6 +31,6 @@ Contact (WhatsApp / Call / illustrated map) · Footer · Floating WhatsApp CTA
 
 ## Placeholders To Replace Before Going Live
 
-- Phone / WhatsApp number: `+91 98765 43210` (search the codebase for it)
+- Phone / WhatsApp number: `+91 XXXXX XXXXX` (search the codebase for it)
 - Testimonial names and stats (15+ years, 1200+ students, 100+ shlokas)
 - The illustrated map can be swapped for a real Google Maps embed
